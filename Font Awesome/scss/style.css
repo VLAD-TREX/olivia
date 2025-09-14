@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+  max-width: 2200px;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.fon {
+  background: rgb(158, 87, 212);
+  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+}
+
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+@media(min-height: 320px) and (max-width: 767px) {
+  .direct__card {
+    text-align: center !important;
+    border-bottom: 2px solid blueviolet;
+    margin: 3px;
+  }
+
+  .socials {
+    margin-bottom: 10px;
+  }
+
+  .footer__form {
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 500px) {
+  .form__input {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block_input {
+    width: 240px;
+    margin: auto;
+  }
+
+  .subscribe__email {
+    width: 220px;
+    padding-right: 70px;
+  }
+
+  .square__wrapper {
+    margin-bottom: 20px;
+  }
+}
+
+.logo {
+  font-family: "Great Vibes", cursive;
+  font-size: 70px;
+  color: white;
+}
+
+.nav-pills {
+  display: flex;
+  justify-content: end;
+}
+
+h1 {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+.play {
+  width: 150px;
+}
+
+.btn {
+  height: 50px;
+}
+
+.btn1 {
+  width: 150px;
+  background-image: url('./images/icons/ios-app-store.svg') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn2 {
+  width: 150px;
+  background-image: url('./images/icons/googleplay.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.section__card {
+  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-people {
+  width: 140px;
+  padding: 7px;
+  border: 4px solid blueviolet;
+  border-radius: 50%;
+}
+
+.block-img {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  border: 4px solid blueviolet;
+}
+
+.img-style {
+  width: 70px;
+  margin: auto;
+}
+
+.cta {
+  background: rgb(158, 87, 212);
+  background: linear-gradient(270deg, rgba(158, 87, 212, 1) 9%, rgba(112, 194, 239, 0.8178921226693803) 100%);
+  color: white;
+}
+
+.icon-cta {
+  margin-right: 15px;
+}
+
+.slaider {
+  width: 100%;
+  padding: 60px 0px;
+  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#team {
+  margin: auto;
+  text-align: center;
+}
+
+.item {
+  margin: auto;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.item-img {
+  object-fit: cover;
+  margin: auto;
+}
+
+.directions {
+  width: 100%;
+  padding: 60px 0px;
+  background: rgb(158, 87, 212);
+  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+  color: white;
+}
+
+.user {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  align-items: center;
+}
+
+.dir-img {
+  width: 170px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-right: 3rem;
+}
+
+.user__desc {
+  max-width: 920px;
+}
+
+.user__text {
+  position: relative;
+}
+
+.user__text::before {
+  content: '❛❛';
+  position: absolute;
+  font-size: 27px;
+  top: -10px;
+  left: -25px;
+}
+
+.user__text span {
+  font-size: 27px;
+  margin-left: 20px;
+  vertical-align: -15px;
+}
+
+.questins {
+  width: 100%;
+  margin: 60px 0px;
+}
+
+.questins__subtitle-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.questins-img {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid blueviolet;
+  padding: 4px;
+}
+
+.socials i {
+  margin-right: 10px;
+  font-weight: 500;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #A62AD7;
+  }
+}
+
+.subscribe {
+  width: 100%;
+  padding: 60px 0px;
+  background: rgb(158, 87, 212);
+  background: linear-gradient(270deg, rgba(158, 87, 212, 1) 9%, rgba(112, 194, 239, 0.8178921226693803) 100%);
+  color: white;
+}
+
+.subscribe__text {
+  max-width: 800px;
+}
+
+.form__input {
+  margin: auto;
+  width: max-content;
+  margin: auto;
+}
+
+.block_input {
+  position: relative;
+}
+
+.subscribe__email {
+  width: 300px;
+  height: 37px;
+  padding-left: 40px;
+  margin-right: 15px;
+  border: 2px solid white;
+  border-radius: 3px;
+  background-color: inherit;
+  outline: none;
+}
+
+a {
+  text-transform: none;
+  color: inherit;
+}
+
+.block_input i {
+  position: absolute;
+  margin-left: 10px;
+  top: 9px;
+  font-size: 20px;
+}
+
+.subscribe__btn {
+  width: 130px;
+  height: 37px;
+  border-radius: 3px;
+  background-color: #A62AD7;
+  outline: none;
+  border: none;
+  color: white;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: #b731ec;
+    color: rgb(217, 216, 216);
+  }
+}
+
+::placeholder {
+  color: white;
+}
+
+.post {
+  width: 100%;
+  padding: 40px 0px;
+  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.post p {
+  margin: 0;
+}
+
+.post i {
+  margin-right: 10px;
+}
+
+#post {
+  width: 100%;
+}
+
+.owl-page span {
+  background-color: #A62AD7 !important;
+}
+
+.owl-page .active span {
+  background-color: #A62AD7 !important;
+}
+
+.square__wrapper {
+  flex-grow: 1;
+  align-items: center;
+}
+
+.square {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70px;
+  height: 95px;
+  margin: 20px 10px 20px 0px;
+  padding: 0px 15px 4px 0px;
+  background-color: #A62AD7;
+  clip-path: polygon(0% 0%, 85% 0, 85% 19%, 100% 35%, 85% 52%, 85% 100%, 1% 100%);
+  color: white;
+}
+
+.square--blue {
+  background-color: #4183F1;
+}
+
+.number__square {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.square__date {
+  color: #cfced0;
+}
+
+.square__desc {
+  width: 85%;
+}
+
+.footer {
+  width: 100%;
+  padding: 60px 0px 20px 0px;
+  background: rgb(158, 87, 212);
+  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+  color: white;
+}
+
+.footer input {
+  border: none;
+}
+
+.footer ::placeholder {
+  font-weight: 600;
+}
+
+.btn__footer {
+  width: 100%;
+  background-color: #951ac6;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  top: -25px;
+  transition: all 0.4s;
+
+  &:hover {
+    background-color: #800eac;
+    transition: all 0.4s;
+  }
+
+  &:active {
+    background-color: #951ac6 !important;
+    border: none;
+    transition: all 0.4s;
+  }
+}
+
+@media(min-height: 320px) and (max-width: 767px) {
+  .direct__card {
+    text-align: center !important;
+    border-bottom: 2px solid blueviolet;
+    margin: 3px;
+  }
+
+  .socials {
+    margin-bottom: 10px;
+  }
+
+  .footer__form {
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width: 500px) {
+  .form__input {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .block_input {
+    width: 240px;
+    margin: auto;
+  }
+
+  .subscribe__email {
+    width: 220px;
+    padding-right: 70px;
+  }
+
+  .square__wrapper {
+    margin-bottom: 20px;
+  }
+}
