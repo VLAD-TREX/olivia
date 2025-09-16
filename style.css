@@ -7,8 +7,8 @@ body {
 }
 
 .fon {
-  background: rgb(158, 87, 212);
-  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+  background: rgb(212, 87, 87);
+  background: linear-gradient(90deg, rgb(212, 87, 87) 7%, rgba(212, 87, 87, 0.925) 39%, rgb(112, 242, 181) 100%);
 }
 
 .header {
@@ -21,7 +21,7 @@ body {
 @media(min-height: 320px) and (max-width: 767px) {
   .direct__card {
     text-align: center !important;
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(226, 43, 43);
     margin: 3px;
   }
 
@@ -98,7 +98,7 @@ h1 {
 }
 
 .section__card {
-  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-image: linear-gradient(rgba(255, 200, 200, 0.9), rgba(252, 207, 207, 0.9)), url('./images/bg/scale.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -107,7 +107,7 @@ h1 {
 .img-people {
   width: 140px;
   padding: 7px;
-  border: 4px solid blueviolet;
+  border: 4px solid rgb(226, 43, 43);
   border-radius: 50%;
 }
 
@@ -120,7 +120,7 @@ h1 {
   margin: auto;
   margin-bottom: 15px;
   border-radius: 50%;
-  border: 4px solid blueviolet;
+  border: 4px solid rgb(226, 43, 43);
 }
 
 .img-style {
@@ -129,8 +129,8 @@ h1 {
 }
 
 .cta {
-  background: rgb(158, 87, 212);
-  background: linear-gradient(270deg, rgba(158, 87, 212, 1) 9%, rgba(112, 194, 239, 0.8178921226693803) 100%);
+  background: rgb(212, 87, 87);
+  background: linear-gradient(270deg, rgb(212, 87, 87) 9%, rgba(112, 239, 197, 0.818) 100%);
   color: white;
 }
 
@@ -141,7 +141,7 @@ h1 {
 .slaider {
   width: 100%;
   padding: 60px 0px;
-  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-image: linear-gradient(rgba(255, 200, 200, 0.9), rgba(252, 207, 207, 0.9)), url('./images/bg/scale.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -166,8 +166,8 @@ h1 {
 .directions {
   width: 100%;
   padding: 60px 0px;
-  background: rgb(158, 87, 212);
-  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+  background: rgb(212, 87, 87);
+  background: linear-gradient(90deg, rgb(212, 87, 87) 7%, rgba(212, 87, 87, 0.925) 39%, rgb(112, 242, 192) 100%);
   color: white;
 }
 
@@ -222,7 +222,7 @@ h1 {
 .questins-img {
   width: 150px;
   border-radius: 50%;
-  border: 4px solid blueviolet;
+  border: 4px solid rgb(226, 43, 43);
   padding: 4px;
 }
 
@@ -232,15 +232,15 @@ h1 {
   transition: all 0.3s;
 
   &:hover {
-    color: #A62AD7;
+    color: #d72a2a;
   }
 }
 
 .subscribe {
   width: 100%;
   padding: 60px 0px;
-  background: rgb(158, 87, 212);
-  background: linear-gradient(270deg, rgba(158, 87, 212, 1) 9%, rgba(112, 194, 239, 0.8178921226693803) 100%);
+  background: rgb(212, 87, 87);
+  background: linear-gradient(270deg, rgb(212, 87, 87) 9%, rgba(239, 112, 112, 0.818) 100%);
   color: white;
 }
 
@@ -285,14 +285,14 @@ a {
   width: 130px;
   height: 37px;
   border-radius: 3px;
-  background-color: #A62AD7;
+  background-color: #d72a2a;
   outline: none;
   border: none;
   color: white;
   transition: all 0.3s;
 
   &:hover {
-    background-color: #b731ec;
+    background-color: #ec3131;
     color: rgb(217, 216, 216);
   }
 }
@@ -304,7 +304,7 @@ a {
 .post {
   width: 100%;
   padding: 40px 0px;
-  background-image: linear-gradient(rgba(239, 200, 255, 0.9), rgba(239, 207, 252, 0.9)), url('./images/bg/scale.jpg');
+  background-image: linear-gradient(rgba(255, 200, 200, 0.9), rgba(252, 207, 207, 0.9)), url('./images/bg/scale.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -323,11 +323,11 @@ a {
 }
 
 .owl-page span {
-  background-color: #A62AD7 !important;
+  background-color: #d72a2a !important;
 }
 
 .owl-page .active span {
-  background-color: #A62AD7 !important;
+  background-color: #d72a2a !important;
 }
 
 .square__wrapper {
@@ -343,13 +343,13 @@ a {
   height: 95px;
   margin: 20px 10px 20px 0px;
   padding: 0px 15px 4px 0px;
-  background-color: #A62AD7;
+  background-color: #d72a2a;
   clip-path: polygon(0% 0%, 85% 0, 85% 19%, 100% 35%, 85% 52%, 85% 100%, 1% 100%);
   color: white;
 }
 
 .square--blue {
-  background-color: #4183F1;
+  background-color: #62f5c9;
 }
 
 .number__square {
@@ -358,7 +358,7 @@ a {
 }
 
 .square__date {
-  color: #cfced0;
+  color: #d0cece;
 }
 
 .square__desc {
@@ -368,8 +368,8 @@ a {
 .footer {
   width: 100%;
   padding: 60px 0px 20px 0px;
-  background: rgb(158, 87, 212);
-  background: linear-gradient(90deg, rgba(158, 87, 212, 1) 7%, rgba(158, 87, 212, 0.9248074229691877) 39%, rgba(112, 197, 242, 1) 100%);
+  background: rgb(212, 87, 87);
+  background: linear-gradient(90deg, rgb(212, 87, 87) 7%, rgba(212, 87, 87, 0.925) 39%, rgb(112, 242, 199) 100%);
   color: white;
 }
 
@@ -383,7 +383,7 @@ a {
 
 .btn__footer {
   width: 100%;
-  background-color: #951ac6;
+  background-color: #c61a1a;
   color: white;
   border: none;
   text-transform: uppercase;
@@ -394,12 +394,12 @@ a {
   transition: all 0.4s;
 
   &:hover {
-    background-color: #800eac;
+    background-color: #ac0e0e;
     transition: all 0.4s;
   }
 
   &:active {
-    background-color: #951ac6 !important;
+    background-color: #c61a1a !important;
     border: none;
     transition: all 0.4s;
   }
@@ -408,7 +408,7 @@ a {
 @media(min-height: 320px) and (max-width: 767px) {
   .direct__card {
     text-align: center !important;
-    border-bottom: 2px solid blueviolet;
+    border-bottom: 2px solid rgb(226, 43, 43);
     margin: 3px;
   }
 
